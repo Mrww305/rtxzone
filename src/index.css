@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --color-ink: #101b17;
+  --color-ink-2: #192821;
+  --color-cream: #f2f0e8;
+  --color-cream-soft: #e9e8de;
+  --color-lime-brand: #d2f36b;
+  --color-muted-brand: #a9b6ac;
+}
+
+:root {
+  --ink: #101b17;
+  --ink2: #192821;
+  --cream: #f2f0e8;
+  --white: #fffdf7;
+  --muted: #a9b6ac;
+  --lime: #d2f36b;
+  --line: rgba(255, 255, 255, 0.16);
+  --darkline: rgba(16, 27, 23, 0.15);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 86px;
+}
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--ink);
+  color: var(--white);
+}
+
+.font-display {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-serif-italic {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+@keyframes flightPulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.75);
+  }
+}
+
+.animate-flight-pulse {
+  animation: flightPulse 1.8s infinite ease-in-out;
+}
