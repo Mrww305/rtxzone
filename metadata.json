@@ -2,5 +2,7 @@
   "name": "RESHMA TEX — Private Industrial Zone",
   "description": "Discover RESHMA TEX Private Industrial Zone — explore the masterplan and enquire about industrial opportunities.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
